@@ -29,7 +29,13 @@
 
     
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: none;
+    position:absolute;
+    background-color: black;
+    color:white;
+    text-align: center;
     
     
     animation-fill-mode: forwards;
@@ -41,4 +47,6 @@
   ul{
 
     list-style: none;
+    padding:1rem;
+    margin: 0;
   }
