@@ -47,10 +47,12 @@ const navBackward = menuSlider('#navMenu').sliderBackward
 
 const buttonMenuListener = document.querySelector('.menuContainer')
 const closeMenuButton = document.querySelector('.closeMenu')
+const navMenu = document.querySelector('#navMenu')
 
 buttonMenuListener.addEventListener('click', (event)=>{
 if(event.target.className === 'navButton'){
   navForward()
+  navMenu.style.display = 'flex'
   closeMenuButton.style.display = 'flex'
 }else if(event.target.className === 'closeMenu') { 
   closeMenuButton.style.display = 'none'
