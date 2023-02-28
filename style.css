@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: none;
     position:absolute;
     background-color: black;
     color:white;
@@ -22,10 +22,17 @@ body{
     
     
   }
+  .buttonContainer {
+
+    display: flex;
+    flex-direction: row;
+
+  }
 
   .closeMenu {
 
     display: none;
+    position:absolute;
   }
 
 
